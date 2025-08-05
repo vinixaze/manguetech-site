@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/manguetech-site/static/css/main.ade5a551.css",
+    "main.js": "/manguetech-site/static/js/main.7db54ad7.js",
+    "static/media/bootstrap-icons.woff?": "/manguetech-site/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
+    "static/media/bootstrap-icons.woff2?": "/manguetech-site/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
+    "index.html": "/manguetech-site/index.html",
+    "main.ade5a551.css.map": "/manguetech-site/static/css/main.ade5a551.css.map",
+    "main.7db54ad7.js.map": "/manguetech-site/static/js/main.7db54ad7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ade5a551.css",
+    "static/js/main.7db54ad7.js"
+  ]
+}
