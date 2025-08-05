@@ -6,7 +6,6 @@ body {
     margin: 0;
     font-family: 'Segoe UI', sans-serif;
 }
-
 .coparticipacao-section {
     background-color: #0b1220;
     background-image: radial-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 0);
@@ -14,21 +13,16 @@ body {
     padding-top: 60px;
     padding-bottom: 80px;
 }
-
-
 .gradient-text {
     background: linear-gradient(to right, #00e0ff, #9f6eff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
 }
-
 .text-highlight {
     color: #f9c80e;
     font-weight: 600;
 }
-
-
 .card-custom {
     background-color: #0e1320;
     color: white;
@@ -43,23 +37,19 @@ body {
     max-width: 800px;
     margin: 0 auto;
 }
-
 .card-custom:hover {
     transform: scale(1.01);
 }
-
 .card-text-content h6 {
     font-size: 17px;
     font-weight: 600;
     margin: 0;
 }
-
 .card-text-content p {
     font-size: 14px;
     margin: 4px 0 0 0;
     color: #dcdcdc;
 }
-
 .number-circle {
     width: 40px;
     height: 40px;
@@ -72,23 +62,18 @@ body {
     flex-shrink: 0;
     font-size: 16px;
 }
-
 .bg-gradient-1 {
     background: linear-gradient(135deg, #6f6df4, #9fa2ff);
 }
-
 .bg-gradient-2 {
     background: linear-gradient(135deg, #27d4a5, #40e0d0);
 }
-
 .bg-gradient-3 {
     background: linear-gradient(135deg, #f9c80e, #f08a00);
 }
-
 .bg-gradient-4 {
     background: linear-gradient(135deg, #ff4d6d, #ff758f);
 }
-
 .bottom-card {
     background-color: #0e1320;
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -104,21 +89,17 @@ body {
     align-items: center;
     justify-content: center;
 }
-
 .bottom-card:hover {
     transform: scale(1.03);
 }
-
 .bottom-card .icon.large {
     font-size: 32px;
     margin-bottom: 12px;
 }
-
 .section-spacing {
     margin-top: 60px;
     padding-top: 40px;
 }
-
 .horizontal-card {
     background-color: #111827;
     border: 1.5px solid transparent;
@@ -129,11 +110,9 @@ body {
     gap: 20px;
     transition: border-color 0.3s ease;
 }
-
 .horizontal-card:hover {
     border-color: #7c3aed;
 }
-
 .bottom-card {
     background-color: #161b22;
     border: 2px solid rgba(255, 255, 255, 0.08);
@@ -147,37 +126,29 @@ body {
     flex-direction: column;
     align-items: center;
 }
-
 .bottom-card .icon {
     font-size: 36px;
     margin-bottom: 15px;
     transition: transform 0.3s ease;
 }
-
 .bottom-card:nth-child(1) .icon {
     color: #9f7aea;
 }
-
 .bottom-card:nth-child(2) .icon {
     color: #38bdf8;
 }
-
 .bottom-card:nth-child(3) .icon {
     color: #facc15;
 }
-
 .bottom-card:hover {
     transform: scale(1.05);
 }
-
 .bottom-card:nth-child(1):hover {
     border-color: #9f7aea;
 }
-
 .bottom-card:nth-child(2):hover {
     border-color: #38bdf8;
 }
-
 .bottom-card:nth-child(3):hover {
     border-color: #facc15;
 }

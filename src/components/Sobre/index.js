@@ -1,6 +1,5 @@
 import React from 'react';
 import './sobre.css';
-
 export default function Sobre() {
   const cards = [
     {
@@ -24,13 +23,11 @@ export default function Sobre() {
       description: 'Impacto real na vida dos alunos e comunidades',
     },
   ];
-
   return (
     <section className="valores-section text-white text-center">
       <div className="container py-5">
         <h2 className="mb-3 gradient-text1">Nossos Valores</h2>
         <p className="mb-5 opacity-75">O que guia a MangueTech na transformação da educação</p>
-
         <div className="row justify-content-center">
           {cards.map((card, index) => (
             <div key={index} className="col-md-6 col-lg-3 mb-4">

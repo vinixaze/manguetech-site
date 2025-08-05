@@ -2,7 +2,6 @@ import React from 'react';
 import './coparticipacao.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FaChartBar, FaBrain, FaChartLine } from 'react-icons/fa';
-
 const Coparticipacao = () => {
     return (
         <div className="coparticipacao-section">
@@ -31,7 +30,6 @@ const Coparticipacao = () => {
                             <p className="mb-0">Professor como protagonista na criação e avaliação de trilhas educacionais</p>
                         </div>
                     </div>
-
                     <div className="card-custom d-flex align-items-start horizontal-card">
                         <div className="number-circle bg-gradient-2">2</div>
                         <div className="card-text-content">
@@ -39,7 +37,6 @@ const Coparticipacao = () => {
                             <p className="mb-0">Inserção do contexto real da sala de aula na interpretação de dados</p>
                         </div>
                     </div>
-
                     <div className="card-custom d-flex align-items-start horizontal-card">
                         <div className="number-circle bg-gradient-3">3</div>
                         <div className="card-text-content">
@@ -47,7 +44,6 @@ const Coparticipacao = () => {
                             <p className="mb-0">Conhecimento docente como alicerce da inovação educacional</p>
                         </div>
                     </div>
-
                     <div className="card-custom d-flex align-items-start horizontal-card">
                         <div className="number-circle bg-gradient-4">4</div>
                         <div className="card-text-content">
@@ -56,9 +52,6 @@ const Coparticipacao = () => {
                         </div>
                     </div>
                 </Row>
-
-
-
                 <Row className="gx-4 gy-4 mt-5 pt-4 section-spacing">
                     <Col md={4}>
                         <div className="bottom-card">
@@ -86,5 +79,4 @@ const Coparticipacao = () => {
         </div>
     );
 };
-
 export default Coparticipacao;

@@ -3,40 +3,30 @@
     padding: 0.5rem 1rem;
     z-index: 1000;
 }
-
 .navbar-logo {
     max-height: 40px;
 }
-
 .navbar-custom.transparent {
     background: transparent;
     box-shadow: none;
 }
-
 .navbar-custom.scrolled {
     background-color: #03142b;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-
-
-
 .navbar-custom .navbar-brand,
 .navbar-custom .nav-link {
     color: white !important;
     font-weight: 500;
 }
-
 .navbar-custom .nav-link:hover {
     color: #00bfff !important;
     transition: color 0.3s ease;
 }
-
-
 .navbar .navbar-collapse .nav {
     justify-content: center;
     width: 100%;
 }
-
 .navbar-title {
     background: linear-gradient(90deg, #8b5cf6, #3b82f6, #10b981, #f59e0b, #ef4444, #ec4899);
     -webkit-background-clip: text;

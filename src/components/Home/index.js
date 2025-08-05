@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import './home.css';
-
 export default function Home() {
   const cards = [
     {
@@ -20,7 +19,6 @@ export default function Home() {
       icon: '🤝',
     },
   ];
-
   return (
     <div className="hero-section">
       <Container>
@@ -35,7 +33,6 @@ export default function Home() {
             </p>
           </Col>
         </Row>
-
         <Row className="g-4 justify-content-center pt-5">
           {cards.map((card, idx) => (
             <Col key={idx} md={6} lg={4}>

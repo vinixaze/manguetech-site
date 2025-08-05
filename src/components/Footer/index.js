@@ -1,13 +1,10 @@
 import React from 'react';
 import './Footer.css';
-
 export default function Footer() {
     return (
         <>
             <footer className="footer">
                 <div className="footer-container">
-
-                    {/* Coluna 1 - Logo e descrição */}
                     <div className="footer-col">
                         <h1 className="footer-logo">
                             <span className="gradient-text">MangueTech</span>
@@ -27,8 +24,6 @@ export default function Footer() {
                             </a>
                         </div>
                     </div>
-
-                    {/* Coluna 2 - Links Rápidos */}
                     <div className="footer-col">
                         <h3>Links Rápidos</h3>
                         <ul>
@@ -39,8 +34,6 @@ export default function Footer() {
                             <li><a href="#plataforma">Plataforma</a></li>
                         </ul>
                     </div>
-
-                    {/* Coluna 3 - Contato */}
                     <div className="footer-col">
                         <h3>Contato</h3>
                         <ul className="footer-contact">
@@ -61,8 +54,6 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-
-
         </>
     );
 }

@@ -2,7 +2,6 @@ import React from 'react';
 import './DataDriven.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FaChartBar, FaBrain, FaChartLine } from 'react-icons/fa';
-
 const DataDriven = () => {
   return (
     <div className="data-driven-section">
@@ -58,8 +57,6 @@ const DataDriven = () => {
             </div>
           </Col>
         </Row>
-
-
         <Row className="gx-4 gy-4">
           <Col md={4}>
             <div className="bottom-card">
@@ -87,5 +84,4 @@ const DataDriven = () => {
     </div>
   );
 };
-
 export default DataDriven;

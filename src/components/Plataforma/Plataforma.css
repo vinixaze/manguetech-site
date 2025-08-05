@@ -4,7 +4,6 @@
   color: white;
   background: linear-gradient(to right, #0a1128, #001f3f);
 }
-
 .plataforma-title {
   font-size: 2.5rem;
   font-weight: bold;
@@ -13,23 +12,18 @@
   -webkit-text-fill-color: transparent;
   margin-bottom: 1rem;
 }
-
 .plataforma-description {
   max-width: 800px;
   margin: 0 auto 3rem;
   font-size: 1.1rem;
   color: #cbd5e1;
 }
-
-/* ---- PRIMEIROS 4 CARDS - 2x2 FIXOS ---- */
 .plataforma-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 colunas fixas */
   gap: 2rem;
   margin-bottom: 4rem;
   justify-items: center;
 }
-
 .plataforma-card {
   width: 100%;
   max-width: 480px;
@@ -40,25 +34,20 @@
   text-align: left;
   transition: transform 0.3s;
 }
-
 .plataforma-card:hover {
   transform: translateY(-5px);
 }
-
 .plataforma-icon {
   font-size: 2rem;
   margin-bottom: 1rem;
   color: #38bdf8;
 }
-
-/* ---- ÚLTIMOS 3 CARDS - MENORES E EM LINHA ---- */
 .plataforma-extra-cards {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
   justify-content: center;
 }
-
 .extra-card {
   flex: 1 1 250px;
   max-width: 320px;
@@ -69,11 +58,9 @@
   text-align: left;
   transition: transform 0.3s;
 }
-
 .extra-card:hover {
   transform: translateY(-5px);
 }
-
 .extra-card .plataforma-icon {
   font-size: 1.7rem;
   margin-bottom: 0.8rem;

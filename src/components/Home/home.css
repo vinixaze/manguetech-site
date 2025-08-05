@@ -2,26 +2,22 @@
   background: linear-gradient(to right, #0a1128, #001f3f);
   padding: 60px 0;
 }
-
 .service-card {
   background-color: #0f172a;
   border-radius: 16px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   border: 1px solid rgba(255, 255, 255, 0.05);
 }
-
 .service-card:hover {
   transform: scale(1.05);
   box-shadow: 0 0 20px rgba(0, 153, 255, 0.3);
 }
-
 .service-icon {
   font-size: 40px;
   background: linear-gradient(45deg, #7f5af0, #2cb67d);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
 .gradient-text1 {
   background: linear-gradient(90deg, #6366f1,  #3b82f6, #06b6d4,#10b981, #f59e0b, #ef4444, #ec4899);
   -webkit-background-clip: text;

@@ -2,7 +2,6 @@
   background: linear-gradient(to right, #0a1128, #001f3f);
   color: white;
 }
-
 .card-icon-box {
   width: 50px;
   height: 50px;
@@ -12,19 +11,15 @@
   justify-content: center;
   margin-bottom: 15px;
 }
-
 .card-purple {
   background: linear-gradient(135deg, #7c3aed, #6366f1);
 }
-
 .card-green {
   background: linear-gradient(135deg, #10b981, #22d3ee);
 }
-
 .card-yellow {
   background: linear-gradient(135deg, #facc15, #f97316);
 }
-
 .top-card {
   background-color: #111827;
   border: 1.5px solid #1f2937;
@@ -34,21 +29,17 @@
   transition: border 0.3s ease;
   height: 100%;
 }
-
 .top-card:hover {
   border-color: #9333ea;
 }
-
 .top-card h5 {
   font-weight: 600;
   margin-bottom: 10px;
 }
-
 .top-card p {
   font-size: 0.95rem;
   color: #d1d5db;
 }
-
 .bottom-card {
   background-color: #1f2937;
   padding: 30px;
@@ -57,17 +48,14 @@
   transition: transform 0.3s ease;
   height: 100%;
 }
-
 .bottom-card:hover {
   transform: scale(1.05);
 }
-
 .bottom-card .icon.large {
   font-size: 3rem;
   color: #10b981;
   margin-bottom: 15px;
 }
-
 .horizontal-card {
   background-color: #111827;
   border: 1.5px solid transparent;
@@ -78,11 +66,9 @@
   gap: 20px;
   transition: border-color 0.3s ease;
 }
-
 .horizontal-card:hover {
   border-color: #7c3aed;
 }
-
 .icon-wrapper {
   min-width: 50px;
   height: 50px;
@@ -91,31 +77,25 @@
   align-items: center;
   justify-content: center;
 }
-
 .card-text h6 {
   font-weight: 600;
   margin: 0;
   color: white;
 }
-
 .card-text p {
   margin: 0;
   color: #d1d5db;
   font-size: 0.95rem;
 }
-
 .card-purple {
   background: linear-gradient(135deg, #7c3aed, #6366f1);
 }
-
 .card-green {
   background: linear-gradient(135deg, #10b981, #22d3ee);
 }
-
 .card-yellow {
   background: linear-gradient(135deg, #facc15, #f97316);
 }
-
 .gradient-text1 {
   background: linear-gradient(90deg, #8b5cf6, #3b82f6, #10b981, #f59e0b, #ef4444, #ec4899);
   -webkit-background-clip: text;
@@ -124,12 +104,10 @@
   font-weight: 800;
   font-size: 2.2rem;
 }
-
 .text-highlight1 {
   color: #a855f7;
   font-weight: 700;
 }
-
 .text-section p {
   font-size: 1.1rem;
   color: #d1d5db;

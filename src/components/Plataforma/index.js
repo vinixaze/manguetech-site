@@ -1,6 +1,5 @@
 import { FaBookOpen, FaBrain, FaChartBar, FaComments, FaGlobe, FaCogs, FaUserShield } from 'react-icons/fa';
 import './Plataforma.css';
-
 const Plataforma = () => {
     return (
         <section className="plataforma-section">
@@ -8,7 +7,6 @@ const Plataforma = () => {
             <p className="plataforma-description">
                 Explore os principais recursos da MangueTech para transformar a educação básica com tecnologia de ponta.
             </p>
-
             <div className="plataforma-grid">
                 <div className="plataforma-card">
                     <FaBookOpen className="plataforma-icon" />
@@ -39,7 +37,6 @@ const Plataforma = () => {
                     </p>
                 </div>
             </div>
-
             <div className="plataforma-extra-cards">
                 <div className="extra-card">
                     <FaGlobe className="plataforma-icon" />
@@ -66,5 +63,4 @@ const Plataforma = () => {
         </section>
     );
 };
-
 export default Plataforma;

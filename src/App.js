@@ -5,8 +5,6 @@ import Valores from './components/Sobre/index.js';
 import DataDriven from './components/DataDriven/index.js';
 import Coparticipacao from './components/Coparticipacao/index.js';
 import Plataforma from './components/Plataforma/index.js';
-
-// …
 function App() {
   return (
     <>
@@ -30,5 +28,4 @@ function App() {
     </>
   );
 }
-
 export default App;
