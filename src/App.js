@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import Footer from './components/Footer';
+import Home from './components/Home/index.js';
+import Navbar from './components/Navbar/index.js';
+import Valores from './components/Sobre/index.js';
+import DataDriven from './components/DataDriven/index.js';
+import Coparticipacao from './components/Coparticipacao/index.js';
+import Plataforma from './components/Plataforma/index.js';
 
+// …
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <div id="home">
+        <Home />
+      </div>
+      <div id="sobre">
+        <Valores />
+      </div>
+      <div id="data-driven">
+        <DataDriven />
+      </div>
+      <div id='coparticipacao'>
+        <Coparticipacao />
+      </div>
+      <div id='plataforma'>
+        <Plataforma />
+      </div>
+      <Footer />
+    </>
   );
 }
 
