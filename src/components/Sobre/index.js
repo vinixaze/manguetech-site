@@ -15,7 +15,7 @@ export default function Sobre() {
     {
       icon: '🤝',
       title: 'Colaboração',
-      description: 'Participação ativa de educadores e estudantes',
+      description: 'Participação ativa dos professores',
     },
     {
       icon: '🚀',
@@ -26,7 +26,7 @@ export default function Sobre() {
   return (
     <section className="valores-section text-white text-center">
       <div className="container py-5">
-        <h2 className="mb-3 gradient-text1">Nossos Valores</h2>
+        <h2 className="mb-3 gradient-text1">Sobre nós</h2>
         <p className="mb-5 opacity-75">O que guia a MangueTech na transformação da educação</p>
         <div className="row justify-content-center">
           {cards.map((card, index) => (

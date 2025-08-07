@@ -13,13 +13,13 @@ export default function Footer() {
                             Transformando a educação através da tecnologia, inovação e colaboração com educadores.
                         </p>
                         <div className="footer-socials">
-                            <a href="#">
+                            <a href="#" >
                                 <i className="bi bi-twitter gradient-icon"></i>
                             </a>
                             <a href="#">
                                 <i className="bi bi-linkedin gradient-icon"></i>
                             </a>
-                            <a href="#">
+                            <a href="https://www.instagram.com/manguetech_educ/">
                                 <i className="bi bi-instagram gradient-icon"></i>
                             </a>
                         </div>
@@ -38,7 +38,7 @@ export default function Footer() {
                         <h3>Contato</h3>
                         <ul className="footer-contact">
                             <li><i className="bi bi-envelope gradient-icon"></i> manguetechedu@gmail.com</li>
-                            <li><i className="bi bi-telephone gradient-icon"></i> +55 (81) 9999-9999</li>
+                            <li><i className="bi bi-whatsapp gradient-icon"></i> +55 (81) 997399267</li>
                             <li><i className="bi bi-geo-alt gradient-icon"></i> Recife, PE - Brasil</li>
                         </ul>
                     </div>

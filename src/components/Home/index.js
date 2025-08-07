@@ -14,8 +14,8 @@ export default function Home() {
       icon: '💻',
     },
     {
-      title: 'Colaboração',
-      text: 'Participação ativa de educadores e estudantes',
+      title: 'Coparticipação',
+      text: 'Processos, ferramentas e artefatos com coparticipação docente',
       icon: '🤝',
     },
   ];
