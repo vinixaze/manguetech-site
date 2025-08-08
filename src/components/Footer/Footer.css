@@ -32,12 +32,6 @@
     display: inline-block;
 }
 
-.footer-socials svg {
-    background: #0f172a;
-    border-radius: 8px;
-    padding: 6px;
-}
-
 .footer-socials .gradient-icon {
     font-size: 28px;
     background: linear-gradient(to right, #2dd4bf, #facc15, #f472b6);
@@ -108,4 +102,16 @@
 
 .footer-links a:hover {
     color: #f472b6;
+}
+
+.footer-btn {
+    margin-right: 12px;
+    display: inline-block;
+}
+
+.footer-btn .gradient-icon {
+    font-size: 28px;
+    background: linear-gradient(to right, #2dd4bf, #facc15, #f472b6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
