@@ -2,7 +2,6 @@
   "name": "manguetech-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://vinixaze.github.io/manguetech-site",
   "dependencies": {
     "bootstrap": "^5.3.7",
     "bootstrap-icons": "^1.13.1",
